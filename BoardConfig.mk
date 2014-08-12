@@ -19,7 +19,7 @@ include device/sony/msm8226-common/BoardConfigCommon.mk
 -include vendor/sony/tianchi/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := D5322,tianchi
+TARGET_OTA_ASSERT_DEVICE := d5322,tianchi,D5322
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/tianchi/include
 
