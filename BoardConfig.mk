@@ -21,7 +21,11 @@ include device/sony/msm8226-common/BoardConfigCommon.mk
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d5322,tianchi,D5322
 
+# Header
 TARGET_SPECIFIC_HEADER_PATH += device/sony/tianchi/include
+
+# System Properties
+TARGET_SYSTEM_PROP := device/sony/tianchi/system.prop
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/tianchi/bluetooth
 
